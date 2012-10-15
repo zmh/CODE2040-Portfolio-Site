@@ -1,0 +1,14 @@
+.laptop-body {
+    margin: 0 auto;
+    padding: 0;
+    width:1000px;
+    z-index: 1;
+    position: relative;
+}
+
+.viewport {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    width: 600px;
+}
