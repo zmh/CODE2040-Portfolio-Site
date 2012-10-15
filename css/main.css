@@ -1,14 +1,21 @@
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: repeat;
+}
+
 .laptop-body {
     margin: 0 auto;
     padding: 0;
     width:1000px;
-    z-index: 1;
+    z-index: 5;
     position: relative;
 }
 
 .viewport {
-    z-index: 2;
+    z-index: -1;
+    width: 665px;
     position: absolute;
-    top: 50px;
-    width: 600px;
+    margin-left: -300px;
+    top: 40px;
+    left: 470px;
 }
