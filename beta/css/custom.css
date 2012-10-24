@@ -1,0 +1,110 @@
+/**
+ * All your custom CSS should go into this file
+ */
+
+body {
+     padding-top: 15px;
+     background-image: url(../img/wood.jpg);
+     background-repeat: repeat;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	text-shadow: 0px 1px 1px #ffce87;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 110%;
+}
+.producticons{
+	width:140px;
+	height:140px;
+	display:block;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	-khtml-border-radius:100px;
+	font-size:20px;
+	color:#fff;
+	line-height:135px;
+	text-decoration:none;
+	text-align:center;
+	font-size: 72px;
+	margin: 0 auto;
+	-moz-transition-property : background; /* FireFox */
+	-webkit-transition-property : background; /* Safari / Chrome */
+	-o-transition-property : background; /* Opera */
+	transition-property : background; /* W3C */
+	-moz-transition-property : border; /* FireFox */
+	-webkit-transition-property : border; /* Safari / Chrome */
+	-o-transition-property : border; /* Opera */
+	transition-property : border; /* W3C */
+	-moz-transition-duration : .7s; /* FireFox */
+	-webkit-transition-duration : .7s; /* Safari / Chrome */
+	-o-transition-duration : .7s; /* Opera */
+	transition-duration : .7s; /* W3C */
+
+}
+#product1icon{
+	border:#2763a3 15px solid;
+	background: #3a7cc7;
+}
+#product1icon:hover{
+	border:#3a7cc7 15px solid;
+	background: #2763a3;
+}
+#product2icon{
+	border:#B10011 15px solid;
+	background:#E01021;
+}
+#product2icon:hover{
+	border:#E01021 15px solid;
+	background:#B10011;
+}
+#product3icon{
+	border:#037448 15px solid;
+	background:#08935a;
+}
+#product3icon:hover{
+	border:#08935a 15px solid;
+	background:#037448;
+}
+#product4icon{
+	border:#bbb300 15px solid;
+	background:#e1d405;
+	text-shadow: 0px 1px 1px #BBB300;
+}
+#product4icon:hover{
+	border:#e1d405 15px solid;
+	background:#bbb300;
+	text-shadow: 0px 1px 1px #BBB300;
+}
+
+.product1box{
+	width:200px;
+	height:200px;
+	display:block;
+	border-radius:26px 26px 26px 26px;
+	-moz-border-radius:26px 26px 26px 26px;
+	-webkit-border-radius:26px 26px 26px 26px;
+	-khtml-border-radius:26px 26px 26px 26px;
+	border:#2762a2 5px solid;
+	font-size:20px;
+	color:#fff;
+	line-height:50px;
+	text-decoration:none;
+	text-align:center;
+	background:#397bc6;
+	font-size: 30px;
+	position: relative;
+	left: 25px;
+	top: -30px;
+	margin-left: -100px;
+	z-index: -1;
+}
+
+
