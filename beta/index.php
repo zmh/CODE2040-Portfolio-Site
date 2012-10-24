@@ -48,6 +48,12 @@ $(window).load(function(){
 
 </script>
 
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.carousel').carousel();
+});
+</script>
+
 
    <link href="css/bootstrap.css" rel="stylesheet">
    <link href="css/style.css" rel="stylesheet">
@@ -57,8 +63,6 @@ $(window).load(function(){
    
 
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Amaranth:700' rel='stylesheet' type='text/css'>
-
 
 </head>
 <body data-spy="scroll" data-offset="120" data-target=".navbar">
@@ -153,7 +157,7 @@ $(window).load(function(){
     </div>
     <div class="span10 offset1">
 
-        <div id="teamCarousel" class="carousel slide">
+        <div id="teamCarousel" class="carousel slide" data-interval="6000">
             <div class="carousel-inner">
                 <div class="item">
                     <img src="img/tristan.jpg" alt="">
@@ -226,7 +230,7 @@ $(window).load(function(){
                         <h3>Amy Schapiro</h3><h4> | Program Manager</h4>
                     </div>
                     <div class="carousel-caption">
-                        <p>Amy Schapiro comes to CODE:2040 with a breadth of experience in non-profit program and organizational development with high-risk communities. She received her Bachelor’s from Emory University and then worked as an educator for the Madrid Department of Education as well as at a Boys and Girls Club in the Bay Area. She subsequently managed the roll-out of a national digital corporate responsibility campaign focused on community development through youth activism at a technology start-up, in partnership with Nike. Amy later designed workforce development programs and worked in grant making in New York City while completing her Master’s of Science in Social Work from Columbia University. She has worked in capacity building and program management for academic institutions and non-profit organizations both in the U.S. and in Costa Rica. She is fluent in Spanish and passionate about breaking cycles of poverty through providing awareness and access to meaningful educational and professional opportunities for young people.</p>
+                        <p>Amy Schapiro comes to CODE:2040 with experience in non-profit program and organizational development with high-risk communities. She received her Bachelor’s from Emory University and then worked as an educator for the Madrid Department of Education as well as at a Boys and Girls Club in the Bay Area. She subsequently managed the roll-out of a national digital corporate responsibility campaign focused on community development through youth activism at a technology start-up, in partnership with Nike. Amy later designed workforce development programs and worked in grant making in New York City while completing her Master’s of Science in Social Work from Columbia University. She is fluent in Spanish and passionate about breaking cycles of poverty through providing awareness and access to meaningful educational and professional opportunities for young people.</p>
                     </div>
                 </div>
 
@@ -263,7 +267,7 @@ $(window).load(function(){
     </div>
     <div class="span10 offset1">
         <p>The CODE2040 program wouldn't be possible without the help of our fantastic partners, who have offered their resources and time to our organization. We are incredibly thankful for their help.</p>
-        <div id="partnersCarousel" class="carousel slide">
+        <div id="partnersCarousel" class="carousel slide" data-interval="6000">
             <div class="carousel-inner">
                 <div class="item">
                     <img src="img/kauffman.jpg" alt="">
@@ -323,13 +327,11 @@ $(window).load(function(){
         </div>
     </div>
 </div>
-
-
-<script>
-$('.carousel').carousel({
-  interval: 4000
-});
-</script>
+</div>
+<div class="row" style="margin: 0 auto; width: 90%;">
+    <hr style="border: none; height: 1px; color: #b0b0b0; background: #b0b0b0;"/>
+    <p style="font-size: 16px; color: #b0b0b0;">Copyright &copy; 2012, code2040.  All rights reserved.</p>
+</div>
 </body>
 </html>
 
