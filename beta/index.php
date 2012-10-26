@@ -16,38 +16,6 @@
    <script src="js/bootstrap-carousel.js"></script>
    <script src="js/scrollspy.js"></script>
    <script src="js/jquery.scrollTo-min.js"></script>
-<script type='text/javascript'>
-$(window).load(function(){
-    $(function() {
-        $('#navbar').scrollspy()
-            
-        $('#nav-links ul li a').bind('click', function(e) {
-            e.preventDefault();
-            target = this.hash;
-            console.log(target);
-            $.scrollTo(target, 1000, {offset:-70});
-       });
-       
-       $('#learn-more-button').bind('click', function(e) {
-            e.preventDefault();
-            target = this.hash;
-            console.log(target);
-            $.scrollTo($('#what'), 1000, {offset:-70});
-       });
-
-       
-        $('#apply-button').bind('click', function(e) {
-            e.preventDefault();
-            target = this.hash;
-            console.log(target);
-            $.scrollTo($('#apply'), 1000, {offset:-70});
-       });
-
-    });
-});
-
-</script>
-
 <script type="text/javascript">
 $(document).ready(function() {
     $('.carousel').carousel();
@@ -326,5 +294,38 @@ $(document).ready(function() {
     <p style="font-size: 16px; color: #b0b0b0;">Copyright &copy; 2012, code2040.  All rights reserved.</p>
 </div>
 </body>
+
+<script type='text/javascript'>
+$(window).load(function(){
+    $(function() {
+        $('#navbar').scrollspy()
+            
+        $('#nav-links ul li a').bind('click', function(e) {
+            e.preventDefault();
+            target = this.hash;
+            console.log(target);
+            $.scrollTo(target, 1000, {offset:-70});
+       });
+       
+       $('#learn-more-button').bind('click', function(e) {
+            e.preventDefault();
+            target = this.hash;
+            console.log(target);
+            $.scrollTo($('#what'), 1000, {offset:-70});
+       });
+
+       
+        $('#apply-button').bind('click', function(e) {
+            e.preventDefault();
+            target = this.hash;
+            console.log(target);
+            $.scrollTo($('#apply'), 1000, {offset:-70});
+       });
+
+    });
+});
+
+</script>
+
 </html>
 
