@@ -160,7 +160,7 @@ $(document).ready(function() {
 
         <div id="teamCarousel" class="carousel slide" data-interval="6000">
             <div class="carousel-inner">
-                <div class="item">
+                <div class="item active">
                     <img src="img/tristan.jpg" alt="">
                     <div class="carousel-title">
                         <h3>Tristan Walker</h3><h4> | Founder, Chairman</h4>
@@ -234,11 +234,6 @@ $(document).ready(function() {
                         <p>Amy Schapiro comes to CODE:2040 with experience in non-profit program and organizational development with high-risk communities. She received her Bachelor’s from Emory University and then worked as an educator for the Madrid Department of Education as well as at a Boys and Girls Club in the Bay Area. She subsequently managed the roll-out of a national digital corporate responsibility campaign focused on community development through youth activism at a technology start-up, in partnership with Nike. Amy later designed workforce development programs and worked in grant making in New York City while completing her Master’s of Science in Social Work from Columbia University. She is fluent in Spanish and passionate about breaking cycles of poverty through providing awareness and access to meaningful educational and professional opportunities for young people.</p>
                     </div>
                 </div>
-
-
-
-
-
             </div>
             <a class="left carousel-control" href="#teamCarousel" data-slide="prev">‹</a>
             <a class="right carousel-control" href="#teamCarousel" data-slide="next">›</a>
@@ -270,7 +265,7 @@ $(document).ready(function() {
         <p>The CODE2040 program wouldn't be possible without the help of our fantastic partners, who have offered their resources and time to our organization. We are incredibly thankful for their help.</p>
         <div id="partnerCarousel" class="carousel slide" data-interval="6000">
             <div class="carousel-inner">
-                <div class="item">
+                <div class="item active">
                     <img src="img/kauffman.jpg" alt="">
                     <div class="carousel-caption">
                         <p>The Ewing Marion Kauffman Foundation was established in the mid-1960s by the late entrepreneur and philanthropist Ewing Marion Kauffman. Based in Kansas City, Missouri, the Kauffman Foundation is among the thirty largest foundations in the United States with an asset base of approximately $2 billion. The foundation's vision is to foster “a society of economically independent individuals who are engaged citizens, contributing to the improvement of their communities.” In service of this vision, and in keeping with its founder’s wishes, the foundation focuses our grant making and operations on two areas: advancing entrepreneurship and improving the education of children and youth. We carry out our mission through four programmatic areas: Entrepreneurship, Advancing Innovation, Education, and Research and Policy.</p>
@@ -320,12 +315,9 @@ $(document).ready(function() {
                         <p>Silicon Valley Community Foundation makes all forms of philanthropy more powerful. The Silicon Valley Community Foundation serves as a catalyst and leader for innovative solutions to the region’s most challenging problems. The community foundation has more than $2 billion in assets under management and more than 1,500 philanthropic funds. As Silicon Valley’s center of philanthropy, the foundation provides individuals, families and corporations with simple and effective ways to give locally and around the world. Find out more at www.siliconvalleycf.org</p>
                     </div>
                 </div>
-
-
-
+            </div>
             <a class="left carousel-control" href="#partnerCarousel" data-slide="prev">‹</a>
             <a class="right carousel-control" href="#partnerCarousel" data-slide="next">›</a>
-        </div>
     </div>
 </div>
 </div>
