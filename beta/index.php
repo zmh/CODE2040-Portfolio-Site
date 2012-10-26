@@ -63,6 +63,7 @@ $(document).ready(function() {
    
 
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
 
 </head>
 <body data-spy="scroll" data-offset="120" data-target=".navbar">
@@ -267,7 +268,7 @@ $(document).ready(function() {
     </div>
     <div class="span10 offset1">
         <p>The CODE2040 program wouldn't be possible without the help of our fantastic partners, who have offered their resources and time to our organization. We are incredibly thankful for their help.</p>
-        <div id="partnersCarousel" class="carousel slide" data-interval="6000">
+        <div id="partnerCarousel" class="carousel slide" data-interval="6000">
             <div class="carousel-inner">
                 <div class="item">
                     <img src="img/kauffman.jpg" alt="">
@@ -322,8 +323,8 @@ $(document).ready(function() {
 
 
 
-            <a class="left carousel-control" href="#partnersCarousel" data-slide="prev">‹</a>
-            <a class="right carousel-control" href="#partnersCarousel" data-slide="next">›</a>
+            <a class="left carousel-control" href="#partnerCarousel" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#partnerCarousel" data-slide="next">›</a>
         </div>
     </div>
 </div>
