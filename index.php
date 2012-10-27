@@ -7,14 +7,15 @@
 
         <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>  
-        <script src="http://use.edgefonts.net/arvo.js"></script>
-        <script src="http://use.edgefonts.net/amaranth.js"></script>
-      
+        <link href="css/jquery.terminal.css" rel="stylesheet">
+
 
         <link href="css/main.css" rel="stylesheet">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script src="js/jquerytypewriter.js"></script>
+        <script src="js/jquery.mousewheel-min.js"></script>
+        <script src="js/jquery.terminal.min.js"></script>
+
 
 
     </head>
@@ -22,6 +23,7 @@
 
     
     <body>
+        <!--
         <div class="intro">
             A fun presentation in CSS and Javascript for
         </div>
@@ -31,7 +33,7 @@
         </div>
         
         <a class="button-tumblr" href="#">Let's go!</a>
-
+        -->
 
         <div class="laptop-body">
             <img src="img/mac.png" width="100%" />
@@ -43,13 +45,18 @@
             <div class="finder-text">Hi hi hi test test test</div>
         </div>
         
-        <div class="hideme chrome">
-            <img src="img/chrome.png" />
-            <div class="chrome-text">www.google.com</div>
+        <div id="fake-terminal" style="background-color: none;">
+            <img src="img/terminal.png" width="100%" />
         </div>
+        <div class="terminal" style="width: 550px;z-index: 40;height: 300px;margin: 0 auto;top: 50%;left: 50%;margin-left: -290px;margin-top: -370px;
+"></div>
+
 
     </body>
     
     <script src="js/main.js"></script>
+    <script src="js/terminal.js"></script>
+
+
 
 </html>

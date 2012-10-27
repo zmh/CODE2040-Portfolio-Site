@@ -1,9 +1,8 @@
 $(document).ready(function() {
-    hideAll();
-    $(".button-tumblr").click(introTransition);
+    //introTransition()
     
-    //setTimeout(showChrome,3000);
-    //setTimeout(showChromeText,3000);
+    setTimeout(showChrome,3000);
+    setTimeout(showChromeText,3000);
 
 });
 
