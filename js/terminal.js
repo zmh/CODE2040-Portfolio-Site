@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
     $('.terminal').terminal(function(command, term) {
     
     
-        if (command.toLowerCase() == 'help') {
+        if (command.toLowerCase() == 'help' || command == "") {
             term.echo("Enter your first name!\nCool things happen if you\'re Tristan, Laura, Amy, or Ben.");
         } 
         

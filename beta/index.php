@@ -124,6 +124,8 @@ $(document).ready(function() {
     </div>
 </div>
 
+<br /><br />
+
 <div class="row" id="team">
     <div class="span3 offset1">
         <h1>TEAM</h1><br />
@@ -215,6 +217,8 @@ $(document).ready(function() {
     </div>
 </div>
 
+<br /><br />
+
 <div class="row" id="apply">
     <div class="span3 offset1">
         <h1>APPLY</h1>
@@ -229,6 +233,8 @@ $(document).ready(function() {
         <p>Still have more questions about the process? If you review the content of the rest of our site and still have more questions, please send us a note on the Contact Us page. </p>
     </div>
 </div>
+
+<br /><br />
 
 <div class="row" id="partners">
     <div class="span3 offset1">
