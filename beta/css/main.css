@@ -1,0 +1,136 @@
+/**
+ * All your custom CSS should go into this file
+ */
+.header {
+    background-image: url('../img/good7.jpg');
+    background-size: cover;
+    height:386px;
+    padding-top: 200px;
+    border-bottom: 3px solid black;
+    background-position: center top;
+    transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear; /* Firefox 4 */
+    -webkit-transition: background 0.5s linear; /* Safari and Chrome */
+    -o-transition: background 0.5s linear; /* Opera */
+    background-repeat: no-repeat;
+
+}
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1190px;
+}
+    
+.header-buttons {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.navbar .brand {
+    font-family: 'Amaranth';
+    font-size: 28px;
+    text-shadow: 0px 2px 3px #555;
+    color: #eff3f6;
+    padding: 4px 20px 4px 0px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    top: 0;
+}
+
+.navbar-inner {
+    background-color: rgba(255, 255, 255, 0.79);
+    background-image: none;
+}
+
+body {
+     background-image: url('../img/bgnd5.png');
+     background-repeat: repeat;
+}
+
+.header h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 70px;
+	font-weight: 700;
+	text-shadow: 0px 1px 15px black;	
+	color: white;
+	text-align: center;
+	line-height: 110%;
+}
+.header h2 {
+	font-family: 'Lobster Two', sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 110%;
+	text-shadow: 2px 2px 2px black;	
+	color: white;
+	text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+p, ul, li {
+    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+
+#adv-custom-caption {
+    font-family: 'Lato', 'Helvetica', sans-serif; 
+    font-weight: 300; 
+    font-size: 24px; 
+    line-height: 26px;
+}
+
+.carousel-title {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 2px 15px;
+  background: #333333;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-title h3 {
+    font-size: 22px;
+    font-family: 'Lato', 'Helvetica', sans-serif; 
+    font-weight: 500;
+    color: white;
+    display: inline;
+}
+
+.carousel-title h4 {
+    font-size: 22px;
+    font-family: 'Lato', 'Helvetica', sans-serif; 
+    font-weight: 100;
+    color: white;
+    display: inline;
+
+}
+
+.carousel-caption p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.navbar .nav > li > a {
+    padding: 15px 15px 15px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: rgba(131, 131, 131, 0.43);
+}
+
+#share-buttons {
+    padding-top: 17px;
+}

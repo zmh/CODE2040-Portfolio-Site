@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -24,8 +23,7 @@ $(document).ready(function() {
 
 
    <link href="css/bootstrap.css" rel="stylesheet">
-   <link href="css/style.css" rel="stylesheet">
-   <link href="css/landingPage2.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
    <link href="css/buttons.css" rel="stylesheet">
    <link rel="stylesheet" href="css/font-awesome.css">
    
@@ -54,7 +52,7 @@ $(document).ready(function() {
           <li><a href="#team">Team</a></li>
           <li><a href="#apply">Apply</a></li>
           <li><a href="#partners">Partners</a></li>
-          <li id="share-buttons"><a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this site @zhamed made to apply to @code2040!" data-size="large" data-dnt="true">Tweet</a>
+          <li id="share-buttons"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codetwentyforty.org" data-text="Check out this cool site @zhamed made to apply to the @code2040 program!" data-size="large" data-dnt="true">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
            <li id="share-buttons"><a href="https://twitter.com/zhamed" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @zhamed</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>

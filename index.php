@@ -20,7 +20,7 @@
 
         <div class="laptop-body">
             <img src="img/mac.png" width="100%" />
-            <div class="viewport"><img src="img/screen6.png" width="100%" /></div>
+            <div class="viewport"><img src="img/screen.png" width="100%" /></div>
         </div>
                 
         <div id="fake-terminal" style="background-color: none;">
@@ -30,8 +30,8 @@
 "></div>
 
 <div id="sharing-tools">
-    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out this site @zhamed made to apply to @code2040!" data-size="large" data-dnt="true">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://codetwentyforty.org" data-text="Check out this cool site @zhamed made to apply to the @code2040 program!" data-size="large" data-dnt="true">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
     
     <br />
     
