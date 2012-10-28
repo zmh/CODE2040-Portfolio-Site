@@ -15,6 +15,10 @@
     background-repeat: no-repeat;
 
 }
+
+.navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 1190px;
+}
     
 .header-buttons {
     width: 480px;
@@ -251,4 +255,8 @@ p, ul, li {
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     background-color: rgba(131, 131, 131, 0.43);
+}
+
+#share-buttons {
+    padding-top: 17px;
 }
