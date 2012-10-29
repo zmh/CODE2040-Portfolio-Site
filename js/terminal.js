@@ -33,11 +33,11 @@ jQuery(document).ready(function($) {
                     term.push(function(command, term) {
                         if (command.toLowerCase() == 'yes' || command.toLowerCase() == 'y') {
                             term.clear();
-                            term.echo('Perfect! Now that I laid out why I feel I am a\ngood candidate for CODE2040, I want to show you a redesigned site I made for CODE2040.\n\nHope you like it!');
+                            term.echo('Perfect! Now that I laid out why I feel I am a good candidate,\nI want to show you a redesigned site I made for CODE2040.\n\nHope you like it!');
                             goToRedesign();
                         }
                         else if (command.toLowerCase() == 'no' || command.toLowerCase() == 'n') {
-                            term.echo('Your command ' + command + ' is not recognized, because I do not take no for an answer :) Try again?');
+                            term.echo('This terminal doesn\'t take no for an answer :) Try again?');
                         }
                         else {
                             term.echo('Command not recognized.');
@@ -63,7 +63,7 @@ jQuery(document).ready(function($) {
         // LAURA
         else if (command.toLowerCase() == "laura") {
             term.clear();
-            term.echo('Hi Laura! Thanks again for meeting with me a few weeks ago to discuss\nCODE2040. As you can see, I\'m really excited to be applying!\n\nI want to quickly lay out again why I feel I\'d be a great fit for\nCODE2040:\n1.  I\'m incredibly passionate about entrepreneurship.\n    I worked on my own startup, I help run a number of startup organizations\n    on campus, and I really want to get involved in Silicon Valley.\n2.  I\'m committed to increasing the number of minorities in tech.\n    As a member of Prep for Prep, I have interned in the business world\n    and represented underrepresented students from NYC public schools.\n3.  I love tech.\n    I started programming in middle school and have continued since then.\n    That said, I\'m also interested in design, UI/UX, and product.\n    I want to build and ship things people want to use.\n\nSound good so far? (yes/no)');
+            term.echo('Hi Laura! Thanks again for meeting with me a few weeks ago to discuss\nCODE2040. As you can see, I\'m really excited to be applying!\n\nI want to quickly lay out again why I feel I\'d be a great fit for\nCODE2040:\n1.  I\'m incredibly passionate about entrepreneurship.\n    I worked on my own startup, I help run a number of startup clubs\n    on campus, and I really want to get involved in Silicon Valley.\n2.  I\'m committed to increasing the number of minorities in tech.\n    As a member of Prep for Prep, I have interned in the business world\n    and represented underrepresented students from NYC public schools.\n3.  I love tech.\n    I started programming in middle school and continued since then.\n    That said, I\'m also interested in design, UI/UX, and product.\n    I want to build and ship things people want to use.\n\nSound good so far? (yes/no)');
                     
                     term.push(function(command, term) {
                         if (command.toLowerCase() == 'yes' || command.toLowerCase() == 'y') {
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
                             goToRedesign();
                         }
                         else if (command.toLowerCase() == 'no' || command.toLowerCase() == 'n') {
-                            term.echo('Your command ' + command + ' is not recognized, because I don\'t take no for an\nanswer :) Try again.');
+                            term.echo('This terminal doesn\'t take no for an answer :) Try again?');
                         }
                         else {
                             term.echo('Command not recognized.');
@@ -124,6 +124,6 @@ jQuery(document).ready(function($) {
             goToRedesign();
         }
     }, {
-        greetings: "Hi there. What's your first name?"
+        greetings: "Hi there. What's your first name?\n(Hint: Cool stuff happens if you're Tristan, Laura, Ben, or Amy.)",
     });
 });
